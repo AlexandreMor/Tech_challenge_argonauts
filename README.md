@@ -10,15 +10,15 @@
 ## Install
 
 ```sh
-git clone this repo and <code>run composer install</code>, then <code>yarn install</code> and <code>yarn encore dev</code>. 
+git clone this repo and run composer install, then yarn install and yarn encore dev. 
 Connect this project to your database with .env.local file. 
-Run <code>php bin/console d:d:c</code> , then <code>php bin/console make:migration</code> and finally <code>php bin/console doctrine:migrations:migrate</code> .
+Run php bin/console d:d:c , then php bin/console make:migration and finally php bin/console doctrine:migrations:migrate.
 ```
 
 ## Run tests
 
 ```sh
-Run <code>symfony:server:start</code>
+Run symfony:server:start
 ```
 
 ## Author
